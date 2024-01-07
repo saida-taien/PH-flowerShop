@@ -1,0 +1,400 @@
+*
+{
+    padding:0;
+    margin: 0;
+    font-family: Lato;
+}
+.banner
+{
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    display: flex;
+}
+.banner-heading
+{
+    width: 708px;
+    position: relative;
+    left: 240px;
+    top: 197px;
+    bottom: 365px;
+}
+.banner-title h1
+{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-description
+{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: 20px;
+
+}
+.primary-button 
+{
+    padding: 20px 43px;
+    position: relative;
+    top: 32px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+.primary-button:hover
+{
+    background-color: brown;
+}
+.banner-image img
+{
+    width: 635px;
+    height: 800px;
+    position: relative;
+    left: 400px;
+    right: 240px;
+    top: 50px;
+    bottom: 0;
+}
+.feature
+{
+    width: 1920px;
+    height: 850px;
+}
+.feature-title h1
+{
+    margin: 100px 764px 25px 764px;
+    width: 392px;
+    height: 48px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-description
+{
+    width: 594px;
+    margin: 15px 663px 25px 663px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.feature-image
+{
+    height: 610px;
+    width: 1440px;
+    margin: 15px 240px 15px 240px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image1 
+{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.image1 img
+{
+    width: 310px;
+    height: 428px;
+    position: relative;
+    left: 74px;
+    right: 74px;
+    top: 110px;
+    bottom: 0;
+}
+.image2
+{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.image2 img
+{
+    width: 310px;
+    height: 428px;
+    position: relative;
+    left: 74px;
+    right: 74px;
+    top: 110px;
+    bottom: 0;
+}
+.image3
+{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.image3 img
+{
+    width: 310px;
+    height: 428px;
+    position: relative;
+    left: 74px;
+    right: 74px;
+    top: 110px;
+    bottom: 0;
+}
+.service
+{
+    margin: 15px 240px 15px 240px;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 0 0 0;
+}
+
+.delivery img
+{
+    width: 88px;
+    height: 88px;
+    position: relative;
+    left: 250px;
+    top: 86px;
+}
+.delivery p
+{
+    width: 372px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    position: relative;
+    left: 150px;
+    bottom: 87px;
+    top: 85px;
+ }
+.flowers img
+{
+    width: 88px;
+    height: 88px;
+    position: relative;
+    left: 250px;
+    top: 86px;
+}
+.flowers p
+{
+    width: 372px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    position: relative;
+    left: 150px;
+    bottom: 87px;
+    top: 85px;
+ }
+.support img
+{
+    width: 88px;
+    height: 88px;
+    position: relative;
+    left: 200px;
+    top: 86px;
+}
+.support p
+{
+    width: 372px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    position: relative;
+    left: 150px;
+    bottom: 87px;
+    top: 85px;
+ }
+.hot-deal
+{
+    width: 1920px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin-top: 100px;
+
+}
+.hot-deal-title
+{
+    position: relative;
+    top: 230px;
+    bottom: 342px;
+    left: 250px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot-deal-description p
+{
+    width: 594px;color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    position: relative;
+    top: 230px;
+    bottom: 342px;
+    left: 250px;
+}
+.hot-deal-description button
+{
+    position: relative;
+    top: 250px;
+    bottom: 342px;
+    left: 500px;
+}
+.hot-deal-image img
+{
+    width: 318px;
+    height: 420px;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 500px;
+}
+.instagram-title h2
+{
+    color: #272727; 
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: 150px;
+    left: 870px;
+}
+.instagram-description p
+{
+    width: 594px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    position: relative;
+    top: 170px;
+    left: 663px;
+}
+.instagram-images 
+{
+    display: flex;
+    width: 1440px;
+    margin: 300px 240px 15px 240px;
+    justify-content: space-around;
+    
+}
+.instagram-images img
+{
+    width: 342px;
+    height: 396px; 
+} 
+.Deals
+{
+    width: 1440px;
+    height: 449px;
+    margin: 150px 240px 15px 240px;
+    background-image: url('Flower Asset/Rectangle 9.png');
+}
+.deals-title h1
+{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    left: 535px;
+    top: 120px;
+}
+.deals-description p
+{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    position: relative;
+    left: 604px;
+    top: 130px;
+}
+
+.Deals form
+{
+    position: relative;
+    top: 190px;
+    left: 280px;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.Deals form input
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    padding-top: 10px;
+}
+.Deals form .primary-button
+{
+    position: relative;
+    top: -35px;
+    margin-left: 750px;
+}
+footer
+{
+    margin-top: 150px;
+    width: 1920px;
+    height: 449px;
+    background: #111010;
+}
+.footer-title h1
+{
+    position: relative;
+    top: 128px;
+    left: 830px;
+}
+.footer-description p
+{
+    width: 625px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 650px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright
+{
+    position: relative;
+    top: 190px;
+    left: 800px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
